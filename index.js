@@ -115,6 +115,8 @@ function endGame() {
   for(var i = 0; i < ROCKS.length; i++) {
     ROCKS[i].remove()
   }
+  
+  
 }
 
 function moveDodger(e) {

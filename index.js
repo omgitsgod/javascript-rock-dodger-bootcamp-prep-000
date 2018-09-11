@@ -116,7 +116,7 @@ function endGame() {
     ROCKS[i].remove()
   }
   
-  document.removeE
+  document.removeEventListner('keydown', )
 }
 
 function moveDodger(e) {

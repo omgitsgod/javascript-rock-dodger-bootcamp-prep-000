@@ -116,7 +116,7 @@ function endGame() {
     ROCKS[i].remove()
   }
   
-  document.removeEventListner('keydown', moveDodger)
+  document.removeEventListener('keydown', moveDodger)
   alert('You are horrible at this game!')
 }
 

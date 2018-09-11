@@ -80,7 +80,7 @@ GAME.appendChild(rock)
      * But if the rock *has* reached the bottom of the GAME,
      * we should remove the rock from the DOM
      */
-  rock.style.top = ${
+  rock.style.top = ${top += 
   
   if (checkCollision(rock) === true) {
     return endGame()
